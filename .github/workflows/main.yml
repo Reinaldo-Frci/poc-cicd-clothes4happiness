@@ -10,6 +10,6 @@ jobs:
     steps:
       - name: Atualizar repositório no servidor
         run: |
-          cd ~/poc/poc-cicd-clothes4happiness
+          cd ~/documents/poc/poc-cicd-clothes4happiness
           git pull origin main
           echo "Deploy concluído em $(date)"
